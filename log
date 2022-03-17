@@ -53,3 +53,14 @@ ju., 17 de mar. de 2022 12:06:11:
  tests:  6|4
 total_score: 25/70
 b527eb8
+ju., 17 de mar. de 2022 12:08:19: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function 'prevList':
+list.c:60:8: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   60 |     if(list->current->prev = NULL)return NULL;
+      |        ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+45ea0f2

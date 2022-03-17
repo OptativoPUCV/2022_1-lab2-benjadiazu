@@ -75,3 +75,9 @@ ju., 17 de mar. de 2022 12:10:25:
  1 file changed, 1 insertion(+)
  tests:  0|0
 6bf5f3f
+ju., 17 de mar. de 2022 12:11:24: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+f45fe74

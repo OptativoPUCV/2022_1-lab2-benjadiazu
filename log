@@ -4,3 +4,8 @@ ju., 17 de mar. de 2022 11:50:30:
  tests:  2|5
 total_score: 15/70
 37d0175
+ju., 17 de mar. de 2022 11:52:36: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  0|0
+552286f

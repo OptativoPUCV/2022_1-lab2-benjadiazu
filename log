@@ -242,3 +242,20 @@ list.c:122:1: error: control reaches end of non-void function [-Werror=return-ty
 cc1.exe: all warnings being treated as errors
 Compilation failed
 3f88e0e
+do., 20 de mar. de 2022 13:55:58: 
+ list.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function 'popCurrent':
+list.c:117:41: error: expected ';' before '}' token
+  117 |         list->head = list->current->next
+      |                                         ^
+      |                                         ;
+  118 |     }
+      |     ~                                    
+list.c:123:1: error: control reaches end of non-void function [-Werror=return-type]
+  123 | }
+      | ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+4945ceb

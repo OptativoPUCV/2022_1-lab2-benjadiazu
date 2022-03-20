@@ -203,3 +203,8 @@ do., 20 de mar. de 2022 13:24:10:
  tests:  11|1
 total_score: 55/70
 fd27916
+do., 20 de mar. de 2022 13:37:40: 
+ list.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+ tests:  0|0
+8890719

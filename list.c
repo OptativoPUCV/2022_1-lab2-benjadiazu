@@ -120,7 +120,7 @@ void * popCurrent(List * list) {
         list->current->next->prev = list->current->prev;
     }
     else{
-        popBack(list);
+        list->tail = list->tail->prev;
     }
     return datoEliminado;
 }

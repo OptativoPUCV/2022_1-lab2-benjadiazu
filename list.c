@@ -109,17 +109,20 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {   
-
+    void *datoEliminado = list->current->data;
     if(list->current->prev != NULL){
         list->current->prev->next = list->current->next;
     }
     else{
-        list->head = list->current->next;
+        popFront(list);
     }
     if(list->current->next != NULL){
         list->current->next->prev = list->current->prev;
     }
-
+    else{
+        popBack(list);
+    }
+    return datoEliminado;
 }
 
 void cleanList(List * list) {

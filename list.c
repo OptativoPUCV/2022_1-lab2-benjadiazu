@@ -109,7 +109,7 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {   
-    int *datoEliminado = list->current->data;
+    void *datoEliminado = list->current->data;
     
     if(list->current->prev != NULL){
         list->current->prev->next = list->current->next;
